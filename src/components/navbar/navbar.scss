@@ -1,0 +1,42 @@
+@import "../../assets/scss/_common.scss";
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: visible;
+    padding: 0 1.5rem;
+    height: 4rem;
+    line-height: 4rem;
+    background: $color;
+    color: #fff;
+}
+
+.navbar-title {
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: normal;
+    color: inherit;
+    flex: 1;
+}
+
+.navbar-left,
+.navbar-right {
+    display: block;
+    white-space: nowrap;
+    overflow: visible;
+    flex: 0 0 25%;
+}
+.navbar-right {
+    text-align: right;
+}
+
+.navbar-nav-item {
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.navbar-center {
+    flex: 0 0 50%;
+    text-align: center;
+}
